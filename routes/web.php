@@ -10,6 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'PagesController@index'); // localhost:8000/
+// Route::get('/', 'PagesController@index'); // localhost:8000/
 Route::get('/', 'CityController@index'); // localhost:8000/
 Route::post('/uploadFile', 'PagesController@uploadFile');
