@@ -8,3 +8,7 @@ API Docs
 2. https://kotadunia.herokuapp.com/api/kota/provinsi/{provinsi} = Menampikan data menurut provinsi
 3. https://kotadunia.herokuapp.com/api/kota/negara/{negara} = Menamilkan data menurut negara
 4. https://kotadunia.herokuapp.com/api/kota/geonameid/{geonameid} = Menampilkan data menurut geonameid
+
+Big Thanks to
+------------
+https://datahub.io/core/world-cities#data
