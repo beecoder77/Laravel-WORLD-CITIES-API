@@ -70,9 +70,9 @@ class PagesController extends Controller
           foreach($importData_arr as $importData){
 
             $insertData = array(
-               "name"=>$importData[0],
-               "country"=>$importData[1],
-               "subcountry"=>$importData[2],
+               "kota"=>$importData[0],
+               "negara"=>$importData[1],
+               "provinsi"=>$importData[2],
                "geonameid"=>$importData[3]);
             Page::insertData($insertData);
 
